@@ -13,33 +13,24 @@ public class Calculadora {
         System.out.println("Digite o primeiro número: ");
         double n2 = input.nextDouble();
 
-        double soma = n1 + n2;
-        double subtracao = n1 - n2;
-        double multiplicacao = n1 * n2;
-        double divisao = n1 / n2;
-
+        // Estrutura de repetição Switch-Case
          switch(operador) {
              case '+':
-                 soma = n1 + n2;
-                 System.out.println("O resultado é: " + soma);
+                 System.out.println("O resultado é: " + (n1 + n2));
                  break;
 
                  case '-':
-                     subtracao = n1 - n2;
-                     System.out.println("O resultado é: " + subtracao);
+                     System.out.println("O resultado é: " + (n1 - n2));
                      break;
 
                      case '*':
-                         multiplicacao = n1 * n2;
-                         System.out.println("O resultado é: " + multiplicacao);
+                         System.out.println("O resultado é: " + (n1 * n2));
                          break;
 
                          case '/':
-                             divisao = n1 / n2;
-                             System.out.println("O resultado é: " + divisao);
-                             break;
-                             default:
 
+                             System.out.println("O resultado é: " + (n1 / n2));
+                             break;
          }
 
     }
