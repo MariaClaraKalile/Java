@@ -1,9 +1,4 @@
 
-// 3)_Menu Interativo (do-while)
-//Desenvolva um programa que exiba um menu com
-// opções (1-Somar, 2-Subtrair, 3-Sair) e continue executando
-// até que o usuário escolha a opção 3, utilizando do-while.
-
 import java.util.Scanner;
 
 public class MenuIterativo {
